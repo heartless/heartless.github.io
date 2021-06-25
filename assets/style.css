@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* Google Fonts */
+/*@import url("https://fonts.googleapis.com/css?family=Karla:400");*/
+/* Typeface */
+@import "font/opentype.css";
+
+/* CSS Reset */
+
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+/* Primary Style */
+
+*:focus {
+	outline: none;
+}
+
+body {
+	width: 620px;
+	margin: 80px;
+
+	background: #f6c838 url('bg.jpg') no-repeat fixed 100% 100%;
+	color: #343f4a;
+
+	font-family: 'Karla', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+
+	line-height: 42px;
+	letter-spacing: -0.5px;
+}
+
+img {
+	display: block;
+	margin-bottom: 44px;
+	
+	width: 28px;
+	height: 32px;
+}
+
+p { 
+	display: block;
+	padding-bottom: 1.1em;
+}
+
+p a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid rgba(255,255,255,.25);
+}
+
+p a:hover {
+	background: rgba(0,0,0,.03);
+	border-bottom-color: rgba(255,255,255,.35);
+}
+
+small {
+	display: block;
+	padding-top: 1.5em;
+
+	font-size: 18px;
+	color: #b07e27;
+}
+
+@media only screen and (max-width: 780px) {
+	body {
+		width: 90%;
+		margin: 40px 5%;
+
+		font-size: 28px;
+		line-height: 36px;
+
+		background-position: 50% 100%;
+	}
+}
